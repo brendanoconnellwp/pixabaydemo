@@ -1,5 +1,5 @@
-/* File: automatic.css - Version: 3.0.0-beta-2.1 - Generated: 2024-05-29 20:23:57 */
-:root, .color-scheme--main {
+/* File: automatic.css - Version: 3.0.0-beta-2.1 - Generated: 2024-06-06 20:34:45 */
+:root, .color-scheme--main, .sez-section__h2-title {
   --action-hex: #00AB6B;
   --action-hsl: 158 100% 34%;
   --action-rgb: 0 171 107;
@@ -898,26 +898,26 @@
   --black-trans-80: rgba(255, 255, 255, 0.8);
   --black-trans-90: rgba(255, 255, 255, 0.9);
 }
-:where(:root, .color-scheme--main) {
+:where(:root, .color-scheme--main, .sez-section__h2-title) {
   background-color: var(--body-bg);
   color: var(--body-color);
 }
-:where(:root, .color-scheme--main h1) {
+:where(:root, .color-scheme--main, .sez-section__h2-title h1) {
   color: var(--h1-color, var(--heading-color));
 }
-:where(:root, .color-scheme--main h2) {
+:where(:root, .color-scheme--main, .sez-section__h2-title h2) {
   color: var(--h2-color, var(--heading-color));
 }
-:where(:root, .color-scheme--main h3) {
+:where(:root, .color-scheme--main, .sez-section__h2-title h3) {
   color: var(--h3-color, var(--heading-color));
 }
-:where(:root, .color-scheme--main h4) {
+:where(:root, .color-scheme--main, .sez-section__h2-title h4) {
   color: var(--h4-color, var(--heading-color));
 }
-:where(:root, .color-scheme--main h5) {
+:where(:root, .color-scheme--main, .sez-section__h2-title h5) {
   color: var(--h5-color, var(--heading-color));
 }
-:where(:root, .color-scheme--main h6) {
+:where(:root, .color-scheme--main, .sez-section__h2-title h6) {
   color: var(--h6-color, var(--heading-color));
 }
 html {
